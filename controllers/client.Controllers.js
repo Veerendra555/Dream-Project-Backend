@@ -39,6 +39,9 @@ function validateAddClient(user) {
         marriageTime: Joi.string()
         .messages({'string.pattern.base': `Marriage Time Is Required.`})
         .required(), 
+        marriageTimer: Joi.string()
+        .messages({'string.pattern.base': `Marriage Timer Is Required.`})
+        .required(), 
         bannerImages: Joi.array()
         .messages({'string.pattern.base': ` banner images Is Required.`})
         .required(), 

@@ -26,6 +26,8 @@ var clientSchema = Schema({
 },
 marriageTime:{
     type : String
+},marriageTimer:{
+    type : String
 },
     isActive:{
         type:Boolean,
